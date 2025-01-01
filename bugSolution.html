@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Uncommon HTML Error Solution</title>
+</head>
+<body>
+  <p>This is a paragraph.</p>
+  <div id="myDiv"></div>
+  <script>
+    const myDiv = document.getElementById("myDiv");
+    if (myDiv) {
+      myDiv.someProperty = "test";
+      console.log("Property assigned successfully!");
+    } else {
+      console.log("Element with id 'myDiv' not found.");
+    }
+  </script>
+</body>
+</html>
